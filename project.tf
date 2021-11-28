@@ -22,5 +22,6 @@ module "default_project" {
     "monitoring.googleapis.com",
     // default additions
     "firebase.googleapis.com",
+    "clouddns.googleapis.com",
   ]
 }
