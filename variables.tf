@@ -1,11 +1,13 @@
 variable "billing_account" {}
 
-variable "name" {}
+variable "domain_name" {}
 
-variable "group_name" {}
+variable "environment_folder_id" {}
 
 variable "environment_name" {}
 
-variable "environment_folder_id" {}
+variable "group_name" {}
+
+variable "name" {}
 
 variable "organization_id" {}

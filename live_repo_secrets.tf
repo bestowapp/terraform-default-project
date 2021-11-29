@@ -2,6 +2,7 @@
 locals {
   secrets = tomap({
     "billing_account" : var.billing_account,
+    "domain_name": var.domain_name,
     "name" : var.name,
     "organization_id" : var.organization_id,
     "project_id" : module.default_project.project_id,
