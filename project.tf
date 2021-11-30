@@ -3,7 +3,7 @@ module "default_project" {
   version           = "~> 11.2"
   org_id            = var.organization_id
   name              = local.project_name
-#  random_project_id = true
+  random_project_id = true
   billing_account   = var.billing_account
   folder_id         = var.environment_folder_id
   group_name        = "gcp-organization-admins"
