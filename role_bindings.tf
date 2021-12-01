@@ -1,6 +1,6 @@
 locals {
   roles = toset([
-    "roles/storage.admin",
+    "roles/storage.admin", "roles/compute.loadBalancerAdmin",
 #    "roles/firebase.admin", "roles/firebase.managementServiceAgent"
   ])
 }
