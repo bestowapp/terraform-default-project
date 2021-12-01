@@ -6,7 +6,7 @@ module "default_project" {
   random_project_id = true
   billing_account   = var.billing_account
   folder_id         = var.environment_folder_id
-  group_name        = "gcp-organization-admins"
+#  group_name        = "gcp-organization-admins"
   activate_apis     = [
     "serviceusage.googleapis.com",
     "servicenetworking.googleapis.com",
